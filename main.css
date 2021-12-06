@@ -39,6 +39,10 @@ hr{
     margin: 0 auto;
 }
 
+/* .main{
+    min-height: 40vh;
+} */
+
 /* header */
 
 .top-head{
@@ -342,6 +346,7 @@ footer{
     background: #252525;
     color: #f3f3f3;
     padding: 30px;
+    
 }
 
 footer h2{
