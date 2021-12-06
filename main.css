@@ -24,6 +24,11 @@ body{
 
 img{
     width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 445px;
+   
 }
 ul{
     list-style: none;
@@ -121,7 +126,7 @@ hr{
 }
 
 .banner-main-content h2{
-    font-size: 2rem;
+    font-size: 0rem; 
     font-family: var(--heading);
 }
 
@@ -477,7 +482,7 @@ footer > p{
         justify-content: center;
     }
     .nav-bar nav ul li{
-        padding-right: 30px;
+        padding-right: 27px;
     }
 
     .nav-bar nav ul li:hover{
@@ -498,7 +503,7 @@ footer > p{
     .social-icons ul{
         display: flex;
         justify-content: space-between;
-        padding: 0 20px;
+        padding: 0 58px;
     }
     .social-icons ul li{
         padding: 20px;
@@ -513,6 +518,30 @@ footer > p{
         flex: 1;
     }
 }
+/************ article ******/
+.title-articl{
+    margin-top: 51px;
+    text-align: center;
+}
+.articl-section{
+    display: flex;
+    justify-content: center;
+    padding: 31px;
+    margin-top: 20px;
+
+}
+.articl-img{
+    width: 354px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.articl-contenu{
+    width: 700px;
+    margin-left: 20px;
+    text-align: justify;
+
+}
+
 
 @media(min-width: 992px){
     main{
