@@ -555,4 +555,58 @@ footer > p{
         grid-template-columns: 1fr 2fr;
     }
 }
-
+ /********** category *****/
+ 
+    .title-gallery {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 50px;
+      line-height: 60px;
+      color: #3d3d3c;
+      margin-left: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    
+    .nav-link {
+        border-bottom: 8px solid rgba(227, 227, 234, 0.58) !important;
+        border-radius: 0 !important;
+        width: 250px;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        background: none !important;
+        color: #585858 !important;
+    }
+      .nav-link.active {
+        border-bottom: 8px solid ;
+        font-weight: bold;
+        border-radius: 0 !important;
+        background: none;
+      
+    }
+    .gallery {
+      margin-top: 5em;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .item {
+        width: 220px;
+        height: 299px;
+        margin: 10px;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+    .item > img {
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+    }
+      
+    
+   
