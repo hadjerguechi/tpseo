@@ -48,6 +48,10 @@ hr{
     min-height: 40vh;
 } */
 
+.main-container{
+    min-height: 64vh;
+}
+
 /* header */
 
 .top-head{
@@ -555,4 +559,6 @@ footer > p{
         grid-template-columns: 1fr 2fr;
     }
 }
+
+
 
