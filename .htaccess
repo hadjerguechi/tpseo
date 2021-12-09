@@ -13,6 +13,10 @@ RewriteEngine On
 RewriteRule ^Sony-A5000$ articles/article1.html [L]
 RewriteRule ^lunettes-apple$ glasses.html [L]
 RewriteRule ^apple-glass$ iglass.html [L]
+RewriteRule ^News-Techno$ company.html [L]
+RewriteRule ^Meta$ meta.html [L]
+RewriteRule ^GitHub-Copilot"$ copilot.html [L]
+RewriteRule ^Meilleurs-Frameworks"$ frameworks.html [L]
 
 
 
