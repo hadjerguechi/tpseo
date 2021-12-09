@@ -1,6 +1,6 @@
 .apple-glass > img{
     width: 100% !important;
-    height: 400px;
+    height: 400px !important;
     margin-bottom: 20px;
 
 }
