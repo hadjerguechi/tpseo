@@ -11,7 +11,9 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 Options +FollowSymlinks
 RewriteEngine On
 RewriteRule ^Sony-A5000$ articles/article1.html [L]
-RewriteRule ^lunettesapple$ glasses.html [L]
+RewriteRule ^lunettes-apple$ glasses.html [L]
+RewriteRule ^apple-glass$ iglass.html [L]
+
 
 
 ErrorDocument 404 /404.html
