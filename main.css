@@ -612,7 +612,9 @@ footer > p{
           object-fit: cover;
           height: 100%;
     }
-    
+    .blockquote-footer{
+        background: none !important;
+    }
     
    
 
