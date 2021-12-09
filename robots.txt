@@ -1,1 +1,5 @@
+User-agent: *
+Disallow: /a-la-une.html
+Disallow: /articles
+Allow: /article1.html
 Sitemap: https://cthrdsp.000webhostapp.com/sitemap.xml
