@@ -1,0 +1,19 @@
+
+# HTID:18883063: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:18883063:
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+ErrorDocument 404 /404.html
+
+Redirect 301 /wp-login.php http://404.com/
+Redirect 301 /xmlrpc.php http://404.com/
+Redirect 301 /api.php http://404.com/
+Redirect 301 /lequ.php http://404.com/
+Redirect 301 /action.php http://404.com/
+Redirect 301 /log_in.php http://404.com/
