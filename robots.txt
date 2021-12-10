@@ -1,4 +1,7 @@
 User-agent: *
 Disallow: 404.html
-
+Disallow: /TikTok
+Disallow: /Twitter
+Disallow: /News-Techno
+Disallow: /a-la-une
 Sitemap: http://dschool081.ml/sitemap.xml
