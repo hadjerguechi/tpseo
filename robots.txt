@@ -5,5 +5,5 @@ Disallow: /Twitter
 Disallow: /News-Techno
 Disallow: /a-la-une
 Disallow: /velo-electrique-ou-scooter-electrique-quel-est-le-meilleur-moyen-pour-se-deplacer-en-ville
-
+Disallow: /jai-remplace-mon-pc-par-un-ipad-pro-mon-avis-apres-3-mois
 Sitemap: http://dschool081.ml/sitemap.xml
