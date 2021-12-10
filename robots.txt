@@ -4,4 +4,6 @@ Disallow: /TikTok
 Disallow: /Twitter
 Disallow: /News-Techno
 Disallow: /a-la-une
+Disallow: /velo-electrique-ou-scooter-electrique-quel-est-le-meilleur-moyen-pour-se-deplacer-en-ville
+
 Sitemap: http://dschool081.ml/sitemap.xml
