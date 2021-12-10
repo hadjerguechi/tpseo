@@ -11,14 +11,20 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 Options +FollowSymlinks
 RewriteEngine On
 RewriteRule ^Sony-A5000$ articles/article1.html [L]
+RewriteRule ^Twitter$ articles/article2.html [L]
+RewriteRule ^Realite-Augmentee$ articles/article3.html [L]
+RewriteRule ^TikTok$ articles/article4.html [L]
 RewriteRule ^lunettes-apple$ glasses.html [L]
 RewriteRule ^apple-glass$ iglass.html [L]
 RewriteRule ^News-Techno$ company.html [L]
 RewriteRule ^Meta$ meta.html [L]
-RewriteRule ^GitHub-Copilot"$ copilot.html [L]
-RewriteRule ^Meilleurs-Frameworks"$ frameworks.html [L]
-
-
+RewriteRule ^GitHub-Copilot$ copilot.html [L]
+RewriteRule ^Meilleurs-Frameworks$ frameworks.html [L]
+RewriteRule ^voici-comment-suivre-votre-cheque-de-relance-avec-loutil-irs-get-my-payment-maintenants$ voici-comment-suivre-votre-cheque-de-relance-avec-loutil-irs-get-my-payment-maintenant.html [L]
+RewriteRule ^la-nouvelle-bande-annonce-de-gameplay-de-saints-row-embrasse-labsurdite-de-la-serie$  la-nouvelle-bande-annonce-de-gameplay-de-saints-row-embrasse-labsurdite-de-la-serie.html [L]
+RewriteRule ^velo-electrique-ou-scooter-electrique-quel-est-le-meilleur-moyen-pour-se-deplacer-en-ville$  velo-electrique-ou-scooter-electrique-quel-est-le-meilleur-moyen-pour-se-deplacer-en-ville.html [L]
+RewriteRule ^regarder-lecran-de-verrouillage-dun-telephone-necessite-egalement-un-mandat-juge-les-regles$  regarder-lecran-de-verrouillage-dun-telephone-necessite-egalement-un-mandat-juge-les-regles.html [L]
+ 
 
 ErrorDocument 404 /404.html
 
