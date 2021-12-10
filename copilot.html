@@ -7,8 +7,11 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/main.css" />
-    <link rel="stylesheet" href="apple.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="apple.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
@@ -75,87 +78,111 @@
     </header>
 
     <div class="main-container pt-3">
-     
       <div class="row justify-content-center mx-0 section-apple">
-        <div class="col-11  col-xl-10 apple-glass">
-            <h1>Les développeurs réagissent à GitHub Copilot</h1>
-            <p>Il y a quelques jours GitHub a, en collaboration avec OpenAI, présenté Copilot. Cet assistant à base d'IA aide les développeurs à écrire du code en proposant des suggestions. 
-                Mais qu'en pensent les principaux intéressés ?
-            </p>
-            <p>
-                Dans la volonté d’aider les développeurs dans leur travail, Github a élaboré
-                avec OpenAI (le laboratoire d'intelligence artificielle fondé par Elon Musk) un
-                assistant au codage baptisé Copilot. Il a été présenté le 29 juin dernier et intégré dans un 
-                premier temps à Visual Studio Code de Microsoft. En beta privée, cet outil intervient pour faire des
-                suggestions, un peu comme la fonction de complétion automatique dans les applications de messagerie
-                électronique comme Gmail. Mais il fonctionne aussi pour le code écrit en Python, JavaScript, TypeScript,
-                Ruby, Go et d'autres 
-                langages de programmation. Alors que pensent les développeurs de cet assistant ?
-            </p>
-            <p>
-                Avant de répondre, il faut savoir que d’autres sociétés travaillent sur des projets 
-                similaires comme TabNine et Kite. Cependant le poids de Microsoft et OpenAI fait de Copilot
-                 un sérieux concurrent. Par exemple, Open AI a adapté à ce projet son modèle de prédiction de 
-                 langage GPT-3 pour le code informatique, dans un modèle nommé Codex. Et les performances sont au 
-                 rendez-vous comme l’indique Philip John Basile, développeur senior de l'entreprise de cybersécurité Dragos,
-                  qui a testé les différents assistants du marché, « Copilot est juste à un autre niveau ». Depuis plusieurs
-                   autres beta testeurs ont dressé 
-                le bilan de leurs premiers pas avec Copilot.
-            </p>
-            <h2>Les bonnes surprises de Copilot</h2>
-            <p>Cassidy Williams, directrice de l'expérience des développeurs de la société PaaS Netlify,
-                 a déclaré que Copilot « va être incroyablement utile pour des choses comme les petits 
-                 utilitaires que je dois souvent réécrire sur différents projets. Le fait que je puisse
-                  l'utiliser pour créer certains modèles majeurs, ou écrire certaines fonctions de filtrage par motif, 
-                  au lieu de l’écrire ou de chercher comment
-                 faire pour la centième fois, est appréciable ».
-            </p>
-            <p>Basile de Dragos constate : « au lieu de la saisie semi-automatique, 
-                il me donne des idées pour des fonctions à part entière, des éléments de code aléatoires, 
-                et peut même rassembler des paragraphes écrits pour mon blog ». De son côté, Alexey Golub, 
-                mainteneur prolifique de logiciels libres et consultant en développement chez nos confrères d’InfoWorld 
-                estime qu’« il fonctionne vraiment très bien en tant qu'outil d'autocomplétion très intelligent ». Et de
-                 donner un exemple : « il peut déduire le contexte de votre code et terminer la ligne que vous étiez en 
-                 train de taper avec précision la plupart du temps ». Copilot peut aller au-delà du périmètre du codage,
-                  « comme la rédaction d'articles de blog, de résumés de conférences, de commentaires ou de documentation. Parfois,
-                 le mot juste vous échappe, mais Copilot vous le suggère alors ».
-            </p>
-            <p>
-                La surprise est aussi de mise pour Colby Fayock, responsable des
-                 développeurs au sein de la société d'automatisation des tests Applitools. 
-                 « J'ai été surpris de voir à quel point il était capable de fournir des réponses
-                  pour un grand nombre d'entrées que j'ai essayées ». Il poursuit en indiquant 
-                  : « La première chose qui m'est venue à l'esprit, c'est que ce serait très 
-                  utile pour générer des fonctions utilitaires communes, comme le tri par date, 
-                  que l'on pourrait utiliser dans différents projets. En général, il suffit de
-                   faire une recherche sur Google pour trouver une réponse sur Stack Overflow,
-                    mais je peux maintenant écrire la fonction et obtenir la réponse directement dans Visual Studio Code ». Enfin, Vinit Shahdeo, développeur sur la plateforme de collaboration Postman, a déclaré : « Copilot va certainement augmenter l'efficacité du développeur en réduisant le temps 
-                de développement et en suggérant de meilleures alternatives pour le code ».
-            </p>
-            <h2>Une assistance avec quelques limites</h2>
-            <p>
-                Derrière les propos laudatifs sur Copilot de GitHub. Certains restent critiques sur
-                l’initiative. « Pour les projets plus complexes, je ne pense pas qu'il puisse écrire mon 
-                code à ma place », a constaté Cassidie Williams de Netlify. Tout en observant que 
-                « si cela signifie que je peux me débarrasser du code fastidieux pour que le business
-                logic soit bien fait, cela me va ». Autre point de vue, Basile de Dragos,
-                « Quand vous travaillez avec l’assistant, il vous donne 10 éléments qui 
-                pourraient être la bonne solution. Certains d'entre eux sont tout simplement nuls,
-                tandis que d'autres sont parfaits ».
-            </p>
-            <p>
-                La question de la performance en fonction des langages est soulevée par Colby Fayock qui a essayé Copilot
-                avec React. « J’ai essayé quelques exemples, comme la génération d'un profil d'utilisateur, et une partie
-                du problème est que la création d'un composant React nécessite plus que du React, mais aussi des styles 
-                pour l'accompagner. Ce que Copilot ne prend pas en charge ». Certains s’inquiètent par ailleurs qu’un tel 
-                outil entrave la formation des jeunes développeurs : « Cela ne doit pas freiner leur chemin d'apprentissage 
-                s'ils prennent l'habitude de la complétion automatique », tempère Vinit Shadeo. Enfin, plusieurs développeurs
-                du caractère « boîte noire » de Copilot. C'est le cas du développeur pour Twilio, 
-                Joe Nash, qui en avait fait la base d'une blague devenue virale.
-            </p>
-          
+        <div class="col-11 col-xl-10 apple-glass">
+          <h1>Les développeurs réagissent à GitHub Copilot</h1>
+          <p>
+            Il y a quelques jours GitHub a, en collaboration avec OpenAI,
+            présenté Copilot. Cet assistant à base d'IA aide les développeurs à
+            écrire du code en proposant des suggestions. Mais qu'en pensent les
+            principaux intéressés ?
+          </p>
+          <p>
+            Dans la volonté d’aider les développeurs dans leur travail, Github a
+            élaboré avec OpenAI (le laboratoire d'intelligence artificielle
+            fondé par Elon Musk) un assistant au codage baptisé Copilot. Il a
+            été présenté le 29 juin dernier et intégré dans un premier temps à
+            Visual Studio Code de Microsoft. En beta privée, cet outil
+            intervient pour faire des suggestions, un peu comme la fonction de
+            complétion automatique dans les applications de messagerie
+            électronique comme Gmail. Mais il fonctionne aussi pour le code
+            écrit en Python, JavaScript, TypeScript, Ruby, Go et d'autres
+            langages de programmation. Alors que pensent les développeurs de cet
+            assistant ?
+          </p>
+          <p>
+            Avant de répondre, il faut savoir que d’autres sociétés travaillent
+            sur des projets similaires comme TabNine et Kite. Cependant le poids
+            de Microsoft et OpenAI fait de Copilot un sérieux concurrent. Par
+            exemple, Open AI a adapté à ce projet son modèle de prédiction de
+            langage GPT-3 pour le code informatique, dans un modèle nommé Codex.
+            Et les performances sont au rendez-vous comme l’indique Philip John
+            Basile, développeur senior de l'entreprise de cybersécurité Dragos,
+            qui a testé les différents assistants du marché, « Copilot est juste
+            à un autre niveau ». Depuis plusieurs autres beta testeurs ont
+            dressé le bilan de leurs premiers pas avec Copilot.
+          </p>
+          <h2>Les bonnes surprises de Copilot</h2>
+          <p>
+            Cassidy Williams, directrice de l'expérience des développeurs de la
+            société PaaS Netlify, a déclaré que Copilot « va être incroyablement
+            utile pour des choses comme les petits utilitaires que je dois
+            souvent réécrire sur différents projets. Le fait que je puisse
+            l'utiliser pour créer certains modèles majeurs, ou écrire certaines
+            fonctions de filtrage par motif, au lieu de l’écrire ou de chercher
+            comment faire pour la centième fois, est appréciable ».
+          </p>
+          <p>
+            Basile de Dragos constate : « au lieu de la saisie semi-automatique,
+            il me donne des idées pour des fonctions à part entière, des
+            éléments de code aléatoires, et peut même rassembler des paragraphes
+            écrits pour mon blog ». De son côté, Alexey Golub, mainteneur
+            prolifique de logiciels libres et consultant en développement chez
+            nos confrères d’InfoWorld estime qu’« il fonctionne vraiment très
+            bien en tant qu'outil d'autocomplétion très intelligent ». Et de
+            donner un exemple : « il peut déduire le contexte de votre code et
+            terminer la ligne que vous étiez en train de taper avec précision la
+            plupart du temps ». Copilot peut aller au-delà du périmètre du
+            codage, « comme la rédaction d'articles de blog, de résumés de
+            conférences, de commentaires ou de documentation. Parfois, le mot
+            juste vous échappe, mais Copilot vous le suggère alors ».
+          </p>
+          <p>
+            La surprise est aussi de mise pour Colby Fayock, responsable des
+            développeurs au sein de la société d'automatisation des tests
+            Applitools. « J'ai été surpris de voir à quel point il était capable
+            de fournir des réponses pour un grand nombre d'entrées que j'ai
+            essayées ». Il poursuit en indiquant : « La première chose qui m'est
+            venue à l'esprit, c'est que ce serait très utile pour générer des
+            fonctions utilitaires communes, comme le tri par date, que l'on
+            pourrait utiliser dans différents projets. En général, il suffit de
+            faire une recherche sur Google pour trouver une réponse sur Stack
+            Overflow, mais je peux maintenant écrire la fonction et obtenir la
+            réponse directement dans Visual Studio Code ». Enfin, Vinit Shahdeo,
+            développeur sur la plateforme de collaboration Postman, a déclaré :
+            « Copilot va certainement augmenter l'efficacité du développeur en
+            réduisant le temps de développement et en suggérant de meilleures
+            alternatives pour le code ».
+          </p>
+          <h2>Une assistance avec quelques limites</h2>
+          <p>
+            Derrière les propos laudatifs sur Copilot de GitHub. Certains
+            restent critiques sur l’initiative. « Pour les projets plus
+            complexes, je ne pense pas qu'il puisse écrire mon code à ma place
+            », a constaté Cassidie Williams de Netlify. Tout en observant que «
+            si cela signifie que je peux me débarrasser du code fastidieux pour
+            que le business logic soit bien fait, cela me va ». Autre point de
+            vue, Basile de Dragos, « Quand vous travaillez avec l’assistant, il
+            vous donne 10 éléments qui pourraient être la bonne solution.
+            Certains d'entre eux sont tout simplement nuls, tandis que d'autres
+            sont parfaits ».
+          </p>
+          <p>
+            La question de la performance en fonction des langages est soulevée
+            par Colby Fayock qui a essayé Copilot avec React. « J’ai essayé
+            quelques exemples, comme la génération d'un profil d'utilisateur, et
+            une partie du problème est que la création d'un composant React
+            nécessite plus que du React, mais aussi des styles pour
+            l'accompagner. Ce que Copilot ne prend pas en charge ». Certains
+            s’inquiètent par ailleurs qu’un tel outil entrave la formation des
+            jeunes développeurs : « Cela ne doit pas freiner leur chemin
+            d'apprentissage s'ils prennent l'habitude de la complétion
+            automatique », tempère Vinit Shadeo. Enfin, plusieurs développeurs
+            du caractère « boîte noire » de Copilot. C'est le cas du développeur
+            pour Twilio, Joe Nash, qui en avait fait la base d'une blague
+            devenue virale.
+          </p>
         </div>
-       
       </div>
     </div>
 
@@ -164,9 +191,7 @@
         <div class="footer-left">
           <h2>TECHNEWS</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            molestias aut blanditiis totam quia enim, autem tenetur cum facere,
-            fugit beatae at voluptas ipsum perferendis!
+Le site Web s'adresse aux passionnés de technologie. Il fournit toutes les informations relatives aux nouvelles technologies et aux nouveaux gadgets. Il examine également les nouveaux portails et produits Internet.
           </p>
         </div>
 
