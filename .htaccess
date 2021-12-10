@@ -20,6 +20,7 @@ RewriteRule ^News-Techno$ company.html [L]
 RewriteRule ^Meta$ meta.html [L]
 RewriteRule ^GitHub-Copilot$ copilot.html [L]
 RewriteRule ^Meilleurs-Frameworks$ frameworks.html [L]
+RewriteRule ^a-la-une$ a-la-une.html [L]
 
 
 
