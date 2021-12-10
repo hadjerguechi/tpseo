@@ -13,6 +13,7 @@ RewriteEngine On
 RewriteRule ^Sony-A5000$ articles/article1.html [L]
 RewriteRule ^Twitter$ articles/article2.html [L]
 RewriteRule ^Realite-Augmentee$ articles/article3.html [L]
+RewriteRule ^TikTok$ articles/article4.html [L]
 RewriteRule ^lunettes-apple$ glasses.html [L]
 RewriteRule ^apple-glass$ iglass.html [L]
 RewriteRule ^News-Techno$ company.html [L]
