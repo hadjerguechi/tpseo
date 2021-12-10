@@ -20,11 +20,12 @@ RewriteRule ^News-Techno$ company.html [L]
 RewriteRule ^Meta$ meta.html [L]
 RewriteRule ^GitHub-Copilot$ copilot.html [L]
 RewriteRule ^Meilleurs-Frameworks$ frameworks.html [L]
+RewriteRule ^a-la-une$ a-la-une.html [L]
 RewriteRule ^voici-comment-suivre-votre-cheque-de-relance-avec-loutil-irs-get-my-payment-maintenants$ voici-comment-suivre-votre-cheque-de-relance-avec-loutil-irs-get-my-payment-maintenant.html [L]
 RewriteRule ^la-nouvelle-bande-annonce-de-gameplay-de-saints-row-embrasse-labsurdite-de-la-serie$  la-nouvelle-bande-annonce-de-gameplay-de-saints-row-embrasse-labsurdite-de-la-serie.html [L]
 RewriteRule ^velo-electrique-ou-scooter-electrique-quel-est-le-meilleur-moyen-pour-se-deplacer-en-ville$  velo-electrique-ou-scooter-electrique-quel-est-le-meilleur-moyen-pour-se-deplacer-en-ville.html [L]
 RewriteRule ^regarder-lecran-de-verrouillage-dun-telephone-necessite-egalement-un-mandat-juge-les-regles$  regarder-lecran-de-verrouillage-dun-telephone-necessite-egalement-un-mandat-juge-les-regles.html [L]
-RewriteRule ^un-pays-est-en-tete-de-la-liste-des-nations-les-plus-genereuses-de-gofundme-pour-la-troisieme-annee-consecutive-et-ce-ne-sont-pas-les-etats-unis.$  un-pays-est-en-tete-de-la-liste-des-nations-les-plus-genereuses-de-gofundme-pour-la-troisieme-annee-consecutive-et-ce-ne-sont-pas-les-etats-unis..html [L]
+RewriteRule ^un-pays-est-en-tete-de-la-liste-des-nations-les-plus-genereuses-de-gofundme-pour-la-troisieme-annee-consecutive-et-ce-ne-sont-pas-les-etats-unis$  un-pays-est-en-tete-de-la-liste-des-nations-les-plus-genereuses-de-gofundme-pour-la-troisieme-annee-consecutive-et-ce-ne-sont-pas-les-etats-unis.html [L]
  
 
 
