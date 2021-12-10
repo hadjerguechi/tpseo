@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 404.html
 
-Sitemap: https://cthrdsp.000webhostapp.com/sitemap.xml
+Sitemap: http://dschool081.ml/sitemap.xml
